@@ -10,7 +10,7 @@ sites:
     check: "tcp-ping"
     url: minecraft.jaajeur.xyz
     port: 25565
-    icon: https://www.minecraft.net/etc.clientlibs/minecraft/clientlibs/main/resources/favicon-96x96.png
+    icon: https://raw.githubusercontent.com/Captn138/status/master/assets/minecraft.png
   - name: Minecraft dynamic map (https://minecraft.jaajeur.xyz)
     url: https://minecraft.jaajeur.xyz
     icon: https://minecraft.jaajeur.xyz/images/dynmap.ico
