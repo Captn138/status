@@ -3,28 +3,28 @@ owner: Captn138 # Your GitHub organization or username, where this repository li
 repo: status # The name of this repository
 
 sites:
-  - name: [Main blog](https://www.jaajeur.xyz)
+  - name: Main blog (https://www.jaajeur.xyz)
     url: https://www.jaajeur.xyz
     icon: https://www.jaajeur.xyz/assets/img/favicons/favicon-96x96.png
-  - name: Minecraft server
+  - name: Minecraft server (mc.jaajeur.xyz:25565)
     check: "tcp-ping"
     url: minecraft.jaajeur.xyz
     port: 25565
     icon: https://www.minecraft.net/etc.clientlibs/minecraft/clientlibs/main/resources/favicon-96x96.png
-  - name: Minecraft dynamic map
+  - name: Minecraft dynamic map (https://minecraft.jaajeur.xyz)
     url: https://minecraft.jaajeur.xyz
     icon: https://minecraft.jaajeur.xyz/images/dynmap.ico
-  - name: Feed The Beast server
+  - name: Feed The Beast server (ftb.jaajeur.xyz:25565)
     check: "tcp-ping"
     url: ftb.jaajeur.xyz
     port: 25565
     icon: https://feed-the-beast.com/favicon.ico
-  - name: Terraria server
+  - name: Terraria server (terraria.jaajeur.xyz:7777)
     check: "tcp-ping"
     url: terraria.jaajeur.xyz
     port: 7777
     icon: https://terraria.org/favicon.ico
-  - name: Jenkins pipeline
+  - name: Jenkins pipeline (https://jenkins.jaajeur.xyz)
     url: https://jenkins.jaajeur.xyz/login
     icon: https://jenkins.jaajeur.xyz/static/7222d937/images/svgs/logo.svg
   - name: OpenVPN
