@@ -27,6 +27,13 @@ sites:
   - name: Jenkins pipeline (https://jenkins.jaajeur.xyz)
     url: https://jenkins.jaajeur.xyz/login
     icon: https://jenkins.jaajeur.xyz/static/7222d937/images/svgs/logo.svg
+  - name: Jellyfin (https://stream.jaajeur.xyz)
+    url: https://stream.jaajeur.xyz
+    icon: https://jellyfin.org/favicon.ico
+  - name: SMB NAS
+    check: "tcp-ping"
+    url: jaajeur.xyz
+    port: 139
   - name: OpenVPN
     check: "udp-ping"
     url: jaajeur.xyz
