@@ -34,6 +34,7 @@ sites:
     check: "tcp-ping"
     url: jaajeur.xyz
     port: 139
+    icon: https://raw.githubusercontent.com/Captn138/status/master/assets/smb.png
   - name: OpenVPN
     check: "udp-ping"
     url: jaajeur.xyz
