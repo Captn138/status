@@ -21,18 +21,21 @@ sites:
     port: 7777
   - name: Jenkins pipeline
     url: https://jenkins.jaajeur.xyz
+    expectedStatusCodes:
+      - 301
   - name: OpenVPN
     check: "udp-ckeck"
     url: jaajeur.xyz
     port: 1194
 
 status-website:
-  theme: dark
+  theme: night
+  favicon: https://www.jaajeur.xyz/assets/img/favicons/favicon-96x96.png
   # Add your custom domain name, or remove the `cname` line if you don't have a domain
   # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
   cname: status.jaajeur.xyz
   # baseUrl: /your-repo-name
-  logoUrl: https://www.jaajeur.xyz/assets/img/favicons/favicon-32x32.png
+  logoUrl: https://www.jaajeur.xyz/assets/img/favicons/favicon-96x96.png
   #https://raw.githubusercontent.com/upptime/upptime.js.org/master/static/img/icon.svg
   name: Jaajeur status
   introTitle: "**Upptime** is the open-source uptime monitor and status page, powered entirely by GitHub."
@@ -42,6 +45,8 @@ status-website:
       href: /
     - title: GitHub
       href: https://github.com/$OWNER/$REPO
+    - title: Blog
+      href: https://www.jaajeur.xyz
 
 # Upptime also supports notifications, assigning issues, and more
 # See https://upptime.js.org/docs/configuration
