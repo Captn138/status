@@ -76,18 +76,20 @@
     "url": "$URL_TERRARIA",
     "icon": "https://terraria.org/favicon.ico",
     "slug": "terraria-server-terraria-jaajeur-xyz-7777",
-    "status": "up",
-    "uptime": "100.00%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
+    "status": "down",
+    "uptime": "99.99%",
+    "uptimeDay": "99.99%",
+    "uptimeWeek": "99.99%",
+    "uptimeMonth": "99.99%",
+    "uptimeYear": "99.99%",
     "time": 164,
     "timeDay": 164,
     "timeWeek": 164,
     "timeMonth": 164,
     "timeYear": 164,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2022-08-01": 0
+    }
   },
   {
     "name": "Jenkins pipeline (https://jenkins.jaajeur.xyz)",
