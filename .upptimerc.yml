@@ -8,7 +8,7 @@ sites:
     icon: https://www.jaajeur.xyz/assets/img/favicons/favicon-96x96.png
   - name: Minecraft server (mc.jaajeur.xyz:25565)
     check: "tcp-ping"
-    url: minecraft.jaajeur.xyz
+    url: $URL_MINECRAFT
     port: 25565
     icon: https://raw.githubusercontent.com/Captn138/status/master/assets/minecraft.png
   - name: Minecraft dynamic map (https://minecraft.jaajeur.xyz)
@@ -16,12 +16,12 @@ sites:
     icon: https://minecraft.jaajeur.xyz/images/dynmap.ico
   - name: Feed The Beast server (ftb.jaajeur.xyz:25565)
     check: "tcp-ping"
-    url: ftb.jaajeur.xyz
+    url: $URL_FTB
     port: 25565
     icon: https://feed-the-beast.com/favicon.ico
   - name: Terraria server (terraria.jaajeur.xyz:7777)
     check: "tcp-ping"
-    url: terraria.jaajeur.xyz
+    url: $URL_TERRARIA
     port: 7777
     icon: https://terraria.org/favicon.ico
   - name: Jenkins pipeline (https://jenkins.jaajeur.xyz)
@@ -32,12 +32,12 @@ sites:
     icon: https://jellyfin.org/favicon.ico
   - name: SMB NAS
     check: "tcp-ping"
-    url: jaajeur.xyz
+    url: $URL_SMB
     port: 139
     icon: https://raw.githubusercontent.com/Captn138/status/master/assets/smb.png
   - name: OpenVPN
     check: "udp-ping"
-    url: jaajeur.xyz
+    url: $URL_VPN
     port: 1194
     icon: https://openvpn.net/wp-content/uploads/cropped-openvpn-32x32.png
 
