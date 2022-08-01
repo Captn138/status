@@ -76,19 +76,19 @@
     "url": "$URL_TERRARIA",
     "icon": "https://terraria.org/favicon.ico",
     "slug": "terraria-server-terraria-jaajeur-xyz-7777",
-    "status": "down",
-    "uptime": "99.99%",
-    "uptimeDay": "99.99%",
-    "uptimeWeek": "99.99%",
-    "uptimeMonth": "99.99%",
-    "uptimeYear": "99.99%",
-    "time": 157,
-    "timeDay": 142,
-    "timeWeek": 157,
-    "timeMonth": 157,
-    "timeYear": 157,
+    "status": "up",
+    "uptime": "97.22%",
+    "uptimeDay": "96.93%",
+    "uptimeWeek": "97.22%",
+    "uptimeMonth": "97.22%",
+    "uptimeYear": "97.22%",
+    "time": 162,
+    "timeDay": 158,
+    "timeWeek": 162,
+    "timeMonth": 162,
+    "timeYear": 162,
     "dailyMinutesDown": {
-      "2022-08-01": 0
+      "2022-08-01": 44
     }
   },
   {
