@@ -97,18 +97,20 @@
     "url": "https://jenkins.jaajeur.xyz/login",
     "icon": "https://jenkins.jaajeur.xyz/static/7222d937/images/svgs/logo.svg",
     "slug": "jenkins-pipeline-https-jenkins-jaajeur-xyz",
-    "status": "up",
-    "uptime": "100.00%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
+    "status": "down",
+    "uptime": "99.99%",
+    "uptimeDay": "99.93%",
+    "uptimeWeek": "99.99%",
+    "uptimeMonth": "99.99%",
+    "uptimeYear": "99.99%",
     "time": 594,
     "timeDay": 745,
     "timeWeek": 594,
     "timeMonth": 594,
     "timeYear": 594,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2022-08-07": 1
+    }
   },
   {
     "name": "Jellyfin (https://stream.jaajeur.xyz)",
