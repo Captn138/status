@@ -77,11 +77,11 @@
     "icon": "https://terraria.org/favicon.ico",
     "slug": "terraria-server-terraria-jaajeur-xyz-7777",
     "status": "up",
-    "uptime": "99.84%",
+    "uptime": "99.85%",
     "uptimeDay": "100.00%",
     "uptimeWeek": "100.00%",
-    "uptimeMonth": "99.84%",
-    "uptimeYear": "99.84%",
+    "uptimeMonth": "99.85%",
+    "uptimeYear": "99.85%",
     "time": 190,
     "timeDay": 294,
     "timeWeek": 253,
@@ -97,10 +97,10 @@
     "url": "https://jenkins.jaajeur.xyz/login",
     "icon": "https://jenkins.jaajeur.xyz/static/7222d937/images/svgs/logo.svg",
     "slug": "jenkins-pipeline-https-jenkins-jaajeur-xyz",
-    "status": "up",
+    "status": "down",
     "uptime": "99.87%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "99.76%",
+    "uptimeDay": "99.83%",
+    "uptimeWeek": "99.74%",
     "uptimeMonth": "99.87%",
     "uptimeYear": "99.87%",
     "time": 657,
@@ -109,6 +109,7 @@
     "timeMonth": 657,
     "timeYear": 657,
     "dailyMinutesDown": {
+      "2022-08-30": 2,
       "2022-08-27": 24,
       "2022-08-07": 30
     }
@@ -154,9 +155,9 @@
     "url": "$URL_VPN",
     "icon": "https://openvpn.net/wp-content/uploads/cropped-openvpn-32x32.png",
     "slug": "open-vpn",
-    "status": "up",
+    "status": "down",
     "uptime": "99.95%",
-    "uptimeDay": "100.00%",
+    "uptimeDay": "99.99%",
     "uptimeWeek": "99.78%",
     "uptimeMonth": "99.95%",
     "uptimeYear": "99.95%",
@@ -166,6 +167,7 @@
     "timeMonth": 453,
     "timeYear": 453,
     "dailyMinutesDown": {
+      "2022-08-30": 0,
       "2022-08-27": 22
     }
   }
